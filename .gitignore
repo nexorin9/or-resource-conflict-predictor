@@ -1,0 +1,45 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Project specific
+data/
+logs/
+score.json
+*.log
+
+# Node (if any)
+node_modules/
+
+# Build
+target/
+build/
+dist/
+coverage/
+.next/
+.nuxt/
+
+# Misc
+.DS_Store
+*.tmp
+*.temp
